@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+form {
+  max-width: 300px;
+  margin: auto;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+}
+button:last-of-type {
+  background-color: #28A745;
+}
+button:hover {
+  opacity: 0.9;
+}
+
+.memoSec{
+  font-family: 'Fira Code', monospace;
+  padding: 2rem;
+  border: 2px solid black;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.itemSec *{
+  font-size: 14px;
+}
+.memoFooterRows * {
+  font-size: 14px;
+}
